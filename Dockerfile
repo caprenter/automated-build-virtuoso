@@ -14,5 +14,7 @@ RUN ./configure --prefix=/usr/local/ --with-readline
 RUN nice make
 RUN nice make install
 
+EXPOSE 8890
+
 WORKDIR /usr/local/var/lib/virtuoso/db/
 CMD virtuoso-t -df
