@@ -14,6 +14,6 @@ $ sudo docker run -d -p 8890:8890 sken/virtuoso:7.2
 
 Ubuntu
 ```
-$ sudo docker run -d -p 8890:8890 caprenter/virtuoso
+$ sudo docker run -d -p 8890:8890 caprenter/automated-build-virtuoso
 ```
  
