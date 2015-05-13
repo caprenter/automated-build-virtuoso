@@ -1,11 +1,19 @@
 # docker-virtuoso
 
-docker image for [Virtuoso-7.20](https://github.com/openlink/virtuoso-opensource) based centos6.
+Docker images for [Virtuoso-7.20](https://github.com/openlink/virtuoso-opensource) 
+
+Image based on centos6 from original project.
+Image based on ubuntu 14.04 adapted from that.
 
 ## Usage
 
+Centos
 ```
 $ sudo docker run -d -p 8890:8890 sken/virtuoso:7.2
 ```
 
-It tested in [Ubuntu Server 14.04.2 LTS](http://www.ubuntu.com/server). 
+Ubuntu
+```
+$ sudo docker run -d -p 8890:8890 caprenter/virtuoso
+```
+ 
