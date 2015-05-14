@@ -31,5 +31,5 @@ EXPOSE 8890
 
 #Fire it up
 # See 'Getting Started' in the README
-#WORKDIR /usr/local/var/lib/virtuoso/db/
-#CMD virtuoso-t -df
+WORKDIR /usr/local/var/lib/virtuoso/db/
+CMD virtuoso-t -df
